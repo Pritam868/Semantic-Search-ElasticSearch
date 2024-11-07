@@ -1,7 +1,8 @@
 from elasticsearch import Elasticsearch
 import pandas as pd
 import numpy as np
-import tensorflow as tf
+import sklearn
+import tensorflow
 
 df = pd.read_csv('your_text_dataset.csv')
 
